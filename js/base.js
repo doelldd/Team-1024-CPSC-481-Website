@@ -17,5 +17,8 @@ var UI = {
 $(function() {
 	$( 'body' ).on( 'click', '[href^="#"]', function( event ) {
 		UI.scrollToSection( this, event );
+		var parent = $("#nav-primary");
+		parent.find("[href^='#']").removeClass("active");
+		$(this).addClass("active");
 	});
 });
