@@ -40,3 +40,14 @@
 	left: 0;
 	opacity: 0.5;
 }
+
+.side-header {
+    align-self: flex-start;
+    position: sticky;
+    top: 30px
+}
+
+#page-wrapper {
+    display: flex;
+    flex-direction: grow;
+}
