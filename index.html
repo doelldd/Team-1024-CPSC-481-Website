@@ -5,34 +5,368 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
         <link rel="stylesheet" type="text/css" href="css/styles.css" />
-        <title>Home</title>
+        <title>P1</title>
     </head>
+
     <body>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand text-primary" href="index.html">Nutrition Caddy</a>
+            <a class="navbar-brand text-primary" href="index.html">Team 1024 - Nutrition Caddy</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="P0.html">P0 <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="P1.html">P1 <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="index.html">P1 <span class="sr-only">(current)</span></a>
                     </li>
                 </ul>
             </div>
         </nav>
-        <p>Under Construction</p>
+        <div class="jumbotron">
+            <span class="background-image" style="background-image: url( './images/hero/user-research-lg.jpg' );"></span>
+            <div class="container">
+                <h1 class="display-4 text-center">P1: User Research</h1>
+            </div>
+        </div>
+        <div id="page-wrapper">
+            <header class="side-header">
+                <nav id="nav-primary">
+                    <ul class="list-group">
+                        <li>
+                            <a class="list-group-item list-group-item-action" href="#project-idea">Project Idea</a>
+                        </li>
+                        <li>
+                            <a class="list-group-item list-group-item-action" href="#users">Users</a>
+                        </li>
+                        <li>
+                            <a class="list-group-item list-group-item-action" href="#stakeholders">Stakeholders</a>
+                        </li>
+                        <li>
+                            <a class="list-group-item list-group-item-action" href="#user-research">User Research Methods</a>
+                        </li>
+                        <li>
+                            <a class="list-group-item secondary list-group-item-action" href="#secondary-research">Secondary Research</a>
+                        </li>
+                        <li>
+                            <a class="list-group-item third list-group-item-action" href="#dietary-aspect">Dietary Aspect</a>
+                        </li>
+                        <li>
+                            <a class="list-group-item third list-group-item-action" href="#health-aspect">Health Aspect</a>
+                        </li>
+                        <li>
+                            <a class="list-group-item third list-group-item-action" href="#religious-aspect">Religious Aspect</a>
+                        </li>
+                        <li>
+                            <a class="list-group-item third list-group-item-action" href="#ethical-aspect">Ethical Aspect</a>
+                        </li>
+                        <li>
+                            <a class="list-group-item third list-group-item-action" href="#general-users">General Users Without Dietary Restrictions</a>
+                        </li>
+                        <li>
+                            <a class="list-group-item third list-group-item-action" href="#current-tools">Evaluation of Current Tools</a>
+                        </li>
+                        <li>
+                            <a class="list-group-item secondary list-group-item-action" href="#secondary-research-conclusions">Reflections on Secondary Research</a>
+                        </li>
+                        <li>
+                            <a class="list-group-item secondary list-group-item-action" href="#personas">Personas</a>
+                        </li>
+                        <li>
+                            <a class="list-group-item secondary list-group-item-action" href="#personas-conclusions">Reflections on Personas</a>
+                        </li>
+                        <li>
+                            <a class="list-group-item list-group-item-action" href="#task-descriptions">Task Descriptions</a>
+                        </li>
+                        <li>
+                            <a class="list-group-item list-group-item-action" href="#citations">Citations</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="container mb-5">
+                <div class="row justify-content-center">
+                    <div class="col-md-10 col-lg-8">
+                        <h2 id="project-idea">Project Idea</h2>
+                        <p>
+                            Our project idea is a user-friendly grocery management app aimed towards individuals with special dietary needs or restrictions. These users may include individuals with Diabetes, Celiac Disease, or those on special diets such as Vegan or Keto. The app will contain all the functionalities expected from a grocery management app such as the ability to select and enter grocery items, adjust quantities, track expiration dates and sync with other household members’ app. However, as mentioned above, our app will have a large focus on food items as our goal is to provide an effective way for users with dietary restrictions to plan, track and shop for groceries.
+                        </p>
+                        <p>
+                            Furthermore, another functionality our app will have is a section where there will be recipe suggestions based on the current food items present at home. These recommended recipes will take into account the medical conditions and special diets which the user has identified and will suggest recipes popular with those who share those dietary restrictions. We expect the users of our app to be actively involved in refining the recommendations the app provides by using the “thumbs up” or “thumbs down” feature to indicate whether they would like to see more of this item or not. This ensure that the suggestions provided to the user are finely tuned to the specific needs and preferences of that user. A key part of these recommendations will be replacement items for a specified product which serves as alternatives that conform to the dietary restriction identified by the user. For example, if a user follows a vegan diet then searching for milk will result in suggestions for almond milk and soy milk as a replacement so that users can look for these items the next time they shop. We will combine all the user generated data with data from popular food and health websites to enable the app to provide accurate recommendations for specific food items and recipes which are popular with individuals with the same dietary restrictions.
+                        </p>
+                        <p>
+                            Lastly, our app will also have the capability to link and partner with various grocery stores. We will be obtaining the ingredients and nutrition facts from the information provided on the USDA’s National Nutrient Database. All of this collected data will be used to support customized restrictions set by the users and the app will send an alert if any item contains a restricted ingredient. Future functionalities of the app may include the ability to order groceries from the participating stores directly from the mobile app.
+                        </p>
+                        <h2 id="users">Users</h2>
+                        <p>
+                            Our app can be used by any individual who needs an efficient grocery management app, however, our main user base will consist of teens and adults who have a specific medical condition or follow a special diet. This app is a tool designed to help these individuals who have dietary restrictions to effectively manage their groceries as well as plan, track and shop for grocery items that take into account the user’s special diet and personal food preferences. No special training or experience would be required to use this app as it would operate like other similar grocery management apps and will be intuitive to use as well as user-friendly.
+                        </p>
+                        <h2 id="stakeholders">Stakeholders</h2>
+                        <p>
+                            Our users are the main stakeholders, however, some other stakeholders may include doctors, nutritionists and dieticians who might want to suggest our app as a tool to help their patients and clients. Additional stakeholders include grocery stores, food producers who produce food items for certain dietary restrictions, as well as bloggers and influencers that follow special diets.
+                        </p>
+                        <h2 id="user-research">User Research Methods</h2>
+                        <p>
+                            For our project we chose the Secondary Research and the Persona IDEO methods. These methods complement each other because the Secondary Research helps inform our choice of Personas. By doing Secondary Research we can determine the different types of food restrictions our users may follow. We can also better understand the popularity of different food restrictions and the demographics of a typical user following that food restriction.
+                        </p>
+                        <h3 id="secondary-research">Secondary Research</h3>
+                        <p>During our secondary research we identified five main categories of food restrictions. Below is a summary of our findings in these five categories. We also analysed several existing applications and provided our analysis of the one that most closely matches our design ideas.</p>
+                        <h4 id="dietary-aspect">Dietary Aspect</h4>
+                        <p>The following is a list of diets that millennials are most interested in trying in 2019. By examining this survey we noticed one aspect that all these diets have in common is that they all mainly depend on one important metric.</p>
+                        <h6>Trending Diets<sup><a href="#cit-7">[7]</a></sup></h6>
+                        <table class="table">
+                          <thead>
+                            <tr>
+                              <th scope="col">#</th>
+                              <th scope="col">Diet</th>
+                              <th scope="col">% Millennials</th>
+                              <th scope="col">Most Important Metrics</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <th scope="row">1</th>
+                              <td>Low-Carb Diet</td>
+                              <td>31.1</td>
+                              <td>Carbohydrates</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">2</th>
+                              <td>Reduced-Calorie Diet</td>
+                              <td>23.5</td>
+                              <td>Calories</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">3</th>
+                              <td>Ketogenic Diet</td>
+                              <td>19.3</td>
+                              <td>All 3 Macronutrients but mainly Carbohydrates</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">4</th>
+                              <td>Weight Watchers Diet</td>
+                              <td>16.8</td>
+                              <td>Weight Watchers Points</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">5</th>
+                              <td>Low-Fat Diet</td>
+                              <td>15.1</td>
+                              <td>Fat</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">6</th>
+                              <td>Vegetarian Diet</td>
+                              <td>15.1</td>
+                              <td>Contains Meat or Fish</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">7</th>
+                              <td>Less-Meat</td>
+                              <td>15.1</td>
+                              <td>Contains Meat</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">8</th>
+                              <td>Atkins Diet</td>
+                              <td>9.2</td>
+                              <td>Carbohydrates</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">9</th>
+                              <td>Gluten-Free</td>
+                              <td>5.9</td>
+                              <td>Contains Gluten</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">10</th>
+                              <td>Vegan Diet</td>
+                              <td>5</td>
+                              <td>Contains anything that comes from an animal</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <h4 id="health-aspect">Health Aspect</h4>
+                        <p>For people who have certain diseases, they must keep an eye on specific food since certain food might be risky to their lives. This includes people having food allergies and other healthy issues such as heart disease, high blood pressure, high blood sugar, high blood lipid, asthma, diabetic and etc. </p>
+                        <h5>Food Allergies<sup><a href="#cit-8">[8]</a></sup></h5>
+                        <p>The most common individual food allergies include those to peanuts, tree nuts (walnuts, pecans etc), fish, shellfish, eggs, milk, soy, corn and wheat. </p>
+                        <h5>Diabetics<sup><a href="#cit-9">[9]</a></sup></h5>
+                        <p>For people who have diabetics, Insulin is needed to help cells take in the glucose. They need to pay special attention on the intake of carbohydrate-containing foods. A planned diabetic diet should help to schedule carbohydrate intake so that the cells can get the glucose that they need, as well as, focus on keeping balance of carbohydrates, protein and fat, along with vitamins, minerals, fiber and other nutrients. </p>
+                        <h5>High Blood Pressure<sup><a href="#cit-10">[10]</a></sup></h5>
+                        <p>Avoid salted packaged foods, prevent taking in excessive sugar, reduce items high in saturated fats. People with high blood pressure can replace animal, saturated, and trans fats with plant fats. Eating high-fiber foods such as nuts, beans, and whole grains is also helpful.</p>
+                        <h4 id="religious-aspect">Religious Aspect<sup><a href="#cit-4">[4]</a></sup></h4>
+                        <p>There are many different types of religious dietary laws. We have included a summary of what we determined to be the most applicable religious based diets to be included in our application. These were chosen based on their popularity and the uniquness of these diets.</p>
+                        <h5>Hinduism</h5>
+                        <p>A lacto vegetarian diet is followed by many Hindus – no meat, poultry or fish, no eggs, but milk products are allowed and encouraged. Beef is prohibited. Brahmins may have restrictions on who prepares their food and how it is stored. There are many fasting days and periods in the calendar, with restrictions such as eating only plant foods.</p>
+                        <h5>Islam</h5>
+                        <p>Meats should be slaughtered under Halal guidance; pork is not allowed.  Alcohol is also banned under Halal. During Ramadan, there comes more guidelines for fasting. </p>
+                        <h5>Judaism/Kosher</h5>
+                        <p>This extremely complex set of guidelines includes restrictions on how meat is slaughtered, which animals/birds/seafood may be eaten (most famously pork and shellfish are not allowed), the part of the animal that can be eaten, who makes certain foods, combinations of foods, avoiding contamination, what can be eaten on religious holidays, and more. Such as, on religious holidays, it’s best to purchase pre-packaged kosher meals and leave them unopened to ensure the attendee can see there hasn’t been any contamination. </p>
+                        <h5>Religious Aspect Popularity</h5>
+                        <p>A selection of religions and the corresponding estimated American population following their religious dietary laws is shown below to demonstrate the scale of potential Religious Aspect users.</p>
+                        <table class="table">
+                          <thead>
+                            <tr>
+                              <th scope="col">Religion</th>
+                              <th scope="col">% American Population<sup><a href="#cit-1">[1]</a></sup></th>
+                              <th scope="col">Estimated Adherence to Dietary Law</th>
+                              <th scope="col">Estimated Population Out of 325.7 million Americans (millions)</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <th scope="row">Islam</th>
+                              <td>1</td>
+                              <td>90<sup><a href="#cit-2">[2]</a></sup></td>
+                              <td>2.9</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">Hinduism</th>
+                              <td>1</td>
+                              <td>67<sup><a href="#cit-2">[2]</a></sup></td>
+                              <td>2.2</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">Judaism</th>
+                              <td>2</td>
+                              <td>22<sup><a href="#cit-3">[3]</a></sup></td>
+                              <td>1.4</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <h4 id="ethical-aspect">Ethical Aspect</h4>
+                        <p>"Ethical eating or food ethics refers to the moral consequences of food choices, both those made by humans for themselves and those made for food animals. Common concerns are damage to the environment, exploitative labor practices, food shortages for others, inhumane treatment of food animals, and the unintended effects of food policy. "  -- Wikipedia<sup><a href="#cit-5">[5]</a></sup>. They are calling consumers for making informed choices about the foods they buy and avoid foods derived from animals abused on farms, unsustainable farming practices or unfair working conditions. Their main concerns focus on animal welfare, the environment and workers' rights. </p>
+                        <p>Plants are widely favoured. Preferences are nuts, grains, legumes, vegetables, and fruits. However, being as an ethical eating person, you  are not necessarily to be vegan, intake of meat is still okay, just look for meat that is sustainable and responsible. Always look for good source of food, choose food with brand guarantee. And when eat outside, choose restaurant that has impeccable reputation can be more rest assured.<sup><a href="#cit-6">[6]</a></sup></p>
+                        <h4 id="general-users">General Users Without Dietary Restrictions<sup><a href="#cit-11">[11]</a></sup></h4>
+                        <p>Regular users who have no significant dietary restrictions can technically eat any food product. However, for most people aiming for a healthy, balanced diet is still an important decision to lower the risk of diseases and maintain good health. A good diet diet starts with making food choices which include vegetables and fruits, choosing more whole grain foods, protein foods, limiting highly processed foods and last but not least, water as the optimal choice of drink. Moreover, cooking healthy food at home ensures meals are moderate in terms of calories, sugar, sodium and is made with wholesome ingredients.</p>
+                        <h4 id="current-tools">Evaluation of Current Tools</h4>
+                        <h5>Mealime</h5>
+                        <p><strong>Advantage:</strong> this app provides list of recipes, by choosing the recipes, you can personalize your own meal plan, and all the ingredients included in the recipes you chose will be automatically add to a grocery list. Suggests substitutes for ingredients. Has allergen warning for ingredients. Has the option to order ingredients online and get them delivered in 1 hour. You can mark your favourite recipes. You can customize your meal size and the quantity of ingredients suggested in grocery list will be adjusted based on the meal size at the same time. The UI design is fresh and natural, makes users feel comfortable and relaxed. </p>
+                        <p><strong>Disadvantage:</strong> the interface interactions sometimes are not working smoothly. Hard to close the popup window since there is no closed sign. This app classifies the menu type from dietary and healthy perspective, however, does not put religious and ethical cases into consideration. You have to pay and upgrade your account to view the nutritional information, create your own recipes and view meal plan history.</p>
+                        <p><strong>Reflection:</strong> By experiencing this app and comparing it with our project idea, the most obvious discover is we have a different focus. For Mealime, it is more likely to be a recipe-based app, the grocery list function it has is an additional features and some of the details are not covered. On the contrary, our app's main focus is on the grocery list to help you manage and purchase items. We will recommend recipes based what you've already had and what you plan to buy. We care about everyone's special requirement and respect their uniqueness, so the restrictions you can customize are broken down into more aspects, including religion and ethics. We also have planned feature such as tracking the expiry dates and quantities, sharing grocery list with others while Mealme does not have such feature.</p>
+                        <h4 id="secondary-research-conclusions">Reflections on Secondary Research</h4>
+                        <p>Doing secondary research required a large amount of work. We found there was a lot of information available so choosing a direction and narrowing down the scope was the first tough task we faced. After gathering all the information we needed from credible sources, we needed to refine the content to make it more readable so it can be used as our knowledge base for future development. Overall, the process of secondary research helped us to enhance our understanding of the topic as well as the users and their requirements for our app. </p>
+                        <h3 id="personas">Personas</h3>
+                        <div class="card mb-4" style="width: 25rem;">
+                            <img src="./images/personas/veronica.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Vegan Blogger/Influencer Veronica</h5>
+                                <p class="card-text">Follows a vegan diet because she believes it much more ethical than consuming animal-based products. She is a popular blogger who writes about her vegan lifestyle and encourages others to adopt a vegan diet as well. Veronica is twenty-five years old and lives in downtown Los Angeles. She also works as a fitness trainer so she has a very busy lifestyle. Veronica likes using various productivity and management apps to organize her daily tasks so a grocery management app such as ours which will focus on her vegan diet will be beneficial to her. Veronica will be able to manage her groceries and also find new vegan alternatives to food items and recipes which she can share with her followers.</p>
+                            </div>
+                        </div>
+                        <div class="card mb-4" style="width: 25rem;">
+                            <img src="./images/personas/nick.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Severe Nut Allergy Nick</h5>
+                                <p class="card-text">Nick is an 18 year old university student who has a severe allergy to peanuts and various other tree nuts. The allergy reactions he suffers can be life-threatening so Nick avoids any food items that may contain any kind of nuts in them. Nick is living away from his parents for the first time so he will need to learn how to shop for groceries carefully and effectively. He may use our app to check whether certain products contain nuts, find alternative products which he can look for the next time he shops and find recipes which will not contain any kind of nuts in its ingredients.</p>
+                            </div>
+                        </div>
+                        <div class="card mb-4" style="width: 25rem;">
+                            <img src="./images/personas/christine.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Low-Calorie Christine</h5>
+                                <p class="card-text">Christine is a busy, forty year old mom to three kids. She has a full time job during the daytime and is busy in the evenings with the kids. Christine has recently decided to make some time for herself and improve her health and fitness. Her goal is to lose thirty pounds by exercising and going on a low-calorie diet. This means that she has to put extra care and effort into making sure all the food she is buying and preparing is low on calories and sugar. Our grocery management might prove to be useful for a busy mom like Christine who can use it to manage all her groceries and most importantly identify which foods are low on calories and which are not. She will be able to track, shop and prepare food which both she and her family enjoy while ensuring they conform to her low-calorie diet.</p>
+                            </div>
+                        </div>
+                        <div class="card mb-4" style="width: 25rem;">
+                            <img src="./images/personas/jared.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Jewish Jared</h5>
+                                <p class="card-text">Jared is a thirty-three year old man who lives in New York. He practices Judaism so he follows the Jewish customs in his everyday life including in the food he eats. This means he eats kosher food which conforms to the Jewish dietary regulations. There are various restrictions as part of the kosher diet which include avoiding pork and shellfish. Therefore, Jared might find it useful to use our app to manage his groceries and the food he eats. The app can avoid all the foods which are part of Jared’s dietary restrictions and will be able to suggest popular kosher recipes.</p>
+                            </div>
+                        </div>
+                        <div class="card mb-4" style="width: 25rem;">
+                            <img src="./images/personas/nora.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">No Restrictions Nora</h5>
+                                <p class="card-text">Nora is a fifty-two year old woman who lives with her family in Toronto. Nora does not have any dietary restrictions and is open to almost any product. She may occasionally want to look for some low-sugar options or a dairy-free recipe to make for her mildly lactose intolerant son. Nora may discover our app through the recommendation of a friend and decide to try it out as she would like a tool to help her track and manage her groceries, look for new food products as well as recipes.</p>
+                            </div>
+                        </div>
+                        <h4 id="personas-conclusions">Reflections on Personas</h4>
+                        <p>Creating the personas for our app was a fairly easy task. This is because it is complemented well with the secondary research from which we discovered various categories of dietary restrictions and what they entail. Using this information we could easily recognize several user categories which helped us shape our final five personas. These personas helped us visualize and characterize real-life potential users who will be using our app and allowed us to ensure that our app’s functionality serves all of these users. The one downside to using personas is that it may not reflect all potential users or all the needs of those users because we are creating these personas from our own research and understanding without actually talking to any real individuals.</p>
+                        <h2 id="task-descriptions">Task Descriptions</h2>
+                        <p>The following are some brief task descriptions. They were chosen to demonstrate the full range of functionality of our app, including creating shopping lists, tracking whether items are disallowed by dietary restrictions, finding replacement food for those forbidden by a diet, and ability for online grocery ordering.</p>
+                        <h4>Add Item to List</h4>
+                        <p>Inside your shopping list, type the item you wish to add into the search bar where you can select the desired result which will have the option to add the item to your list. You will be prompted to enter the quantity. The item will then appear in your list.</p>
+                        <h4>Check for Replacement Food</h4>
+                        <p>From the main menu select the item search function. Enter the item you wish to find replacement for into the search bar. Select the desired search result. Possible replacement foods will be displayed.</p>
+                        <h4>Keep Track of Inventory</h4>
+                        <p>To add an item to inventory, you may select it from your shopping list and click an add to inventory button. You will be prompted for quantity and expiry date. The item will be added to your inventory list.</p>
+                        <h4>Forbidden Ingredient Alert</h4>
+                        <p>Whenever an item is searched for by any of the search functions, search results that contain a forbidden ingredient will display a warning. If you attempt to add it to a list you will be prompted to confirm. If an item with a forbidden ingredient is in a list it will display a warning.</p>
+                        <h4>Create a New Shopping List</h4>
+                        <p>After entering the lists home screen from the main menu there will be a “create new list” button. Clicking it will prompt the user to enter a name for the list, and the list will then be available.</p>
+                        <h4>Order Items Online</h4>
+                        <p>From main menu select the online order option. Users will be shown a list of grocery stores that allow online ordering for pickup or delivery in their area. Once a user selects a store, they will be asked to select their shopping list they wish to purchase from. Selecting an item from the list will search for it in the online store. Users may also search for items not on the list by entering them in search bar.</p>
+                        <h4>Select Dietary Restrictions</h4>
+                        <p>When creating an account users will be asked to enter their dietary restrictions. There will be 5 categories to choose from. Under each category the specific choices will be in a drop down menu from which they can be selected. Users may select “Edit Profile” from main menu and be given the same option again for selecting dietary restrictions.</p>
+                        <h2 id="citations">Citations</h2>
+                            <ol>
+                                <li id="cit-1">
+                                    <p>
+                                        Cox, D., & Jones, R. P. (2017, June 9). America's Changing Religious Identity. Retrieved May 22, 2019, from https://www.prri.org/research/american-religious-landscape-christian-religiously-unaffiliated/
+                                    </p>
+                                </li>
+                                <li id="cit-2">
+                                    <p>
+                                        Wormald, B. (2017, January 05). Religious Practices and Experiences. Retrieved May 22, 2019, from https://www.pewforum.org/2015/11/03/chapter-2-religious-practices-and-experiences/#speaking-in-tongues-observance-of-dietary-restrictions-and-other-practices-characteristic-of-specific-religions
+                                    </p>
+                                </li>
+                                <li id="cit-3">
+                                    <p>
+                                        Liu, J. (2014, March 29). Religious Beliefs and Practices of Jewish Americans. Retrieved May 22, 2019, from https://www.pewforum.org/2013/10/01/chapter-4-religious-beliefs-and-practices/
+                                    </p>
+                                </li>
+                                <li id="cit-4">
+                                    <p>
+                                        Hammond, P. (2015, May 03). Religious dietary guidelines and restrictions. Retrieved from http://www.chewfo.com/philosophical-reasons-for-food-choices/religious-dietary-restrictions/
+                                    </p>
+                                </li>
+                                <li id="cit-5">
+                                    <p>
+                                        Ethical eating. (2019, January 24). Retrieved May 23, 2019, from https://en.wikipedia.org/wiki/Ethical_eating
+                                    </p>
+                                </li>
+                                <li id="cit-6">
+                                    <p>
+                                        Siegel, E. (2017, December 07). Mark Bittman on How You Can Make Sure You're Eating Ethically. Retrieved May 23, 2019, from https://www.huffpost.com/entry/mark-bittman-on-how-you-c_n_9188558
+                                    </p>
+                                </li>
+                                <li id="cit-7">
+                                    <p>
+                                        Kotecki, P. (2019, January 02). The most popular diets millennials want to try in 2019. Retrieved May 21, 2019, from https://www.businessinsider.com/most-popular-diets-millennials-want-to-try-2019-2018-12
+                                    </p>
+                                </li>
+                                <li id="cit-8">
+                                    <p>
+                                        Dietary Restrictions, Food Allergies and Religious Restrictions. (n.d.). Retrieved May 22, 2019, from http://www.webster.edu/specialevents/planning/food-information.html
+                                    </p>
+                                </li>
+                                <li id="cit-9">
+                                    <p>
+                                        Food Restrictions and Allergies. (n.d.). Retrieved May 22, 2019, from http://universityevents.harvard.edu/sites/universityevents.harvard.edu/files/FOOD%20RESTRICTIONS%20AND%20ALLERGIES.pdf
+                                    </p>
+                                </li>
+                                <li id="cit-10">
+                                    <p>
+                                        Marengo, K. (2019, May 09). Eating with High Blood Pressure: Food and Drinks to Avoid. Retrieved May 21, 2019, from https://www.healthline.com/health/high-blood-pressure-hypertension/foods-to-avoid
+                                    </p>
+                                </li>
+                                <li id="cit-11">
+                                    <p>
+                                        Healthy eating basics. (n.d.). Retrieved May 22, 2019, from https://www.heartandstroke.ca/get-healthy/healthy-eating/healthy-eating-basics
+                                    </p>
+                                </li>
+                            </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/base.js"></script>
     </body>
 </html>
